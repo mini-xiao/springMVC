@@ -4,16 +4,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>springMVC</groupId>
-  <artifactId>com.xiao</artifactId>
+  <groupId>com.xiao</groupId>
+  <artifactId>springMVC</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
 
   <properties>
     <springVersion>3.1.1.RELEASE</springVersion>
-    <jstlVersion>1.2</jstlVersion>
-    <taglibVersion>1.1.2</taglibVersion>
-    <servletVersion>3.0-alpha-1</servletVersion>
   </properties>
 
   <dependencies>
@@ -58,7 +55,7 @@
   </dependencies>
 
   <build>
-    <finalName>com.xiao</finalName>
+    <finalName>springMVC</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
